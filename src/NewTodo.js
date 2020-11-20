@@ -16,7 +16,7 @@ class NewTodo extends Component {
     evt.preventDefault();
     // this.props.add(this.state);
     this.props.add({ ...this.state, id: uuid() });
-    this.setState({ item: " " });
+    this.setState({ item: "" });
   }
 
   handleChange(evt) {
