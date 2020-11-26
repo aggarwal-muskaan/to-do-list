@@ -33,3 +33,9 @@ form button {
 form button:hover {
   background: #ff5e5e;
 }
+
+form input,
+form button {
+  font-family: "Quicksand", sans-serif;
+  height: 3rem;
+}

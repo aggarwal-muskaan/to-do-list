@@ -37,8 +37,7 @@ class Todos extends Component {
 
   render() {
     let show;
-    const classText =
-      "Todos-text" + (this.state.completed ? "Todos-Strike" : "");
+
     if (this.state.isEdit) {
       show = (
         <form onSubmit={this.updateItem}>
@@ -53,7 +52,10 @@ class Todos extends Component {
     } else {
       show = (
         <li className="Todos">
-          <div className={classText} onClick={this.cancelItem}>
+          <div
+            className={this.state.completed ? "Todos-Strike" : ""}
+            onClick={this.cancelItem}
+          >
             {this.props.input}
           </div>
           <i onClick={this.toggleForm}>edit</i>

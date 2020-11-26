@@ -1,6 +1,5 @@
-.Todos-text .Todos-Strike {
-  text-decoration: line-through;
-  /* content: ""; */
+/* .Todos-text {
+  content: "";
   position: absolute;
   top: 50%;
   left: -0.5rem;
@@ -8,7 +7,15 @@
   width: 0%;
   height: 1px;
   background: #fff;
-  /* animation: strikeitem 0.3s ease-out 0s forwards; */
+  animation: strikeitem 0.3s ease-out 0s forwards;
+} */
+.Todos div,
+i {
+  cursor: pointer;
+}
+
+.Todos-Strike {
+  text-decoration: line-through;
 }
 
 .Todos {
@@ -30,6 +37,6 @@
   border: none;
   background: none;
   -webkit-appearance: none;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #fff;
 }
