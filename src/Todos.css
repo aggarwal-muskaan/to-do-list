@@ -1,0 +1,35 @@
+.Todos-text .Todos-Strike {
+  text-decoration: line-through;
+  /* content: ""; */
+  position: absolute;
+  top: 50%;
+  left: -0.5rem;
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #fff;
+  /* animation: strikeitem 0.3s ease-out 0s forwards; */
+}
+
+.Todos {
+  display: flex;
+  margin: 0 -3rem 4px;
+  padding: 1.1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+/* 
+@keyframes strikeitem {
+  to {
+    width: calc(100% + 1rem);
+  } */
+/* z */
+
+.Todos-delete {
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  color: #fff;
+}
