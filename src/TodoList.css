@@ -34,3 +34,15 @@
   font-style: italic;
   opacity: 0.8;
 }
+@media (max-width: 500px) {
+  .TodoList {
+    width: 300px;
+    max-width: 450px;
+  }
+  .title h1 {
+    font-size: 2rem;
+  }
+  .title h1 small {
+    font-size: 0.65rem;
+  }
+}
