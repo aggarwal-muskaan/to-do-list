@@ -39,3 +39,16 @@ form button {
   font-family: "Quicksand", sans-serif;
   height: 3rem;
 }
+
+@media (max-width: 500px) {
+  form input {
+    width: 100%;
+  }
+  form {
+    align-items: center;
+    justify-content: center;
+  }
+  form button {
+    margin-top: 0.4rem;
+  }
+}
